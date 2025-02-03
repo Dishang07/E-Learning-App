@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Title Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="4dp"/>
+
+    <!-- Course Title -->
+    <TextView
+        android:id="@+id/courseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <!-- Description Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#021526"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Course Description -->
+    <TextView
+        android:id="@+id/courseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#021526"/>
+
+    <!-- Uploaded Date Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uploaded Date"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#021526"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Course Duration (Uploaded Date) -->
+    <TextView
+        android:id="@+id/courseDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#021526"/>
+
+    <!-- Link Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Link"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#021526"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Course Link -->
+    <TextView
+        android:id="@+id/courseLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#007BFF"/>
+
+</LinearLayout>

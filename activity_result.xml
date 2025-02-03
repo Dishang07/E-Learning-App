@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg"
+    >
+
+    <!-- Display the final score -->
+
+    <!-- Detailed Results Section -->
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Your score will be displayed here"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="22sp" />
+
+    <!-- Button to go back or finish -->
+    <TextView
+        android:id="@+id/detailedResultsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:maxHeight="400dp"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:text="Detailed results will appear here"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0D0C0C"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Finish" />
+
+</LinearLayout>
