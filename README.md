@@ -1,0 +1,1 @@
+E-Learning App is an online learning app,where students can access the courses available, notifications and assess them using the quiz section. This app has been authenticated using the firebase and also the firestore database has been used to add the courses, notifications and the quizzes by the admin.
